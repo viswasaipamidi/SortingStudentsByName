@@ -61,10 +61,12 @@ var grades = [];
         update_scores();
         console.log('finished sorting');
         }
-        
+ 
         window.onload = function() {
                 document.getElementById("add_button").onclick = student_grade_add_click;
                 document.getElementById("sort_button").onclick = sort_click;      
                 document.getElementById("student_name").focus();
         }
         
+
+
